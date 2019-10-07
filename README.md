@@ -10,29 +10,31 @@ https://github.com/Accky/VersionEditorWindow/releases
 2. Import version-editor-window_vX.X.X.unitypackage to your project.
 
 ## Usage
-1. **Change Point button** 
-   - [Add]: Add Point. Max point is 5.
+- **Change Point button** 
    - [Dec]: Decrease Point. Min point is 1.
-2. **Increment for Common Settings**
+   - [Add]: Add Point. Max point is 5.
+- **Increment for Common Settings**
    - [Major]: Increment Major version.
    - [Minor]: Increment Minor version.
    - [Point]: Increment Point version.
    - [MPoint]: Increment MPoint version.
    - [MMPoint]: Increment MMPoint version.
-3. **Decrement for Common Settings**
+- **Decrement for Common Settings**
    - [Major]: Decrement Major version.
    - [Minor]: Decrement Minor version.
    - [Point]: Decrement Point version.
    - [MPoint]: Decrement MPoint version.
    - [MMPoint]: Decrement MMPoint version.
-4. **Increment for Bundle Version/Build Number**
+- **Increment for Bundle Version/Build Number**
    - [Android]: Increment Android Bundle Version.
    - [iOS]: Increment iOS Build Number.
    - [Both]: Increment Android Bundle Version & iOS Build Number.
-5. **Decrement for Bundle Version/Build Number**
+- **Decrement for Bundle Version/Build Number**
    - [Android]: Decrement Android Bundle Version.
    - [iOS]: Decrement iOS Build Number.
    - [Both]: Decrement Android Bundle Version & iOS Build Number.
+- **Reset button:** Reset all version info before edit.
+- **Save button:** Save all version info to PlayerSettings.
 
 ## Operation confirmed
 - Unity 2018.4.10f1
